@@ -9,13 +9,14 @@
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    
+    /* TABLET */
     body{
         background-image: linear-gradient(to top,#49a09d,#5f2c82);
     }
 
     section#login{
         width: 80vw;
+        height: 315px;
     }
 
     section#login > div#imagem {
@@ -30,12 +31,18 @@
         width: 70%;
 
     }
+    
+
+    div#formulario > p{
+    font-size: 1em;
+    padding: 5px ;
+    }
 }
 
 
 
 @media screen and (min-width: 992px)  {
-    
+    /* TELAS GRANDES */
     body{
         background-image: linear-gradient(to top,#49a09d,#5f2c82);
     }
@@ -43,6 +50,7 @@
 
     section#login{
         width: 990px;
+        height: 380px;
     }
 
     section#login > div#imagem {
@@ -63,6 +71,7 @@
     }
 
     div#formulario > p{
-    font-size: 1.2em;
+    font-size: 1em;
+    padding: 5px ;
     }
 }
